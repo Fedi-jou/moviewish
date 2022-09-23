@@ -1,0 +1,13 @@
+@mixin button {
+    cursor: pointer;
+    border-radius: 50px;
+    background: transparent;
+    color : $color-white;
+    border: 1px solid $color-secondary;
+}
+
+@mixin hover {
+    transition: 1s ease-in-out;
+    background: $color-secondary;
+    color: $color-white;
+}

@@ -1,0 +1,25 @@
+//components 
+@import "../components/modal/ContentModal.scss";
+@import "../components/movieCard/movieCard.scss";
+@import "../components/singlecontent/SingleContent.scss";
+@import "../layout/navbar/navbar.scss";
+@import "../pages/carousel/Carousel.scss";
+@import "../pages/wishlist/wishlist.scss";
+
+
+
+//STYLES
+@import "./fonts";
+@import "./colors";
+@import "./buttons";
+
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box; 
+}
+
+body {
+    font-family: $font-cairo;
+}
