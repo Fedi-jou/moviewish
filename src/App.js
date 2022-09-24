@@ -2,7 +2,7 @@ import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Carousel from "./pages/carousel/Carousel";
 import { GlobalProvider } from "./context/GlobalState";
-import Wishlist from "./pages/wishlist/Wishlist";
+import Wishlist from "./pages/wishlist/WishList";
 import { NavBar } from "./layout/navbar/NavBar";
 import "./sass/app.scss";
 
