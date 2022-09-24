@@ -2,8 +2,7 @@ import React from "react";
 import { StrictMode } from "react";
 import { hydrateRoot } from "react-dom/client";
 import { renderToString } from "react-dom/server";
-const App = () => <h1>Hello</h1>;
-
+import App from "./App";
 const rootString = renderToString(<App />);
 
 const rootElement = document.getElementById("root");
