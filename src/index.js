@@ -1,3 +1,4 @@
+import React from "react";
 import { StrictMode } from "react";
 import { hydrateRoot } from "react-dom/client";
 import { renderToString } from "react-dom/server";
