@@ -53,7 +53,6 @@
     "@babel/runtime": "^7.18.9",
     "@emotion/react": "^11.10.4",
     "@emotion/styled": "^11.10.4",
-    
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "axios": "^0.27.2",
@@ -76,7 +75,7 @@
     "style-loader": "^3.3.1",
     "webpack-node-externals": "^1.7.2"
   },
-  "overrides": {
+  "resolutions": {
     "react-error-overlay": "6.0.9"
   }
 }
